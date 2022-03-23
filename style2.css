@@ -1,0 +1,83 @@
+#cover{
+    margin: auto;
+  
+margin-bottom: 10px;
+background-image: url(background.jpg);
+height: 250px;
+width: 70%;
+}
+
+.container{
+    height: auto;
+width: 70%;
+position: relative;
+    background: pink;
+    margin: auto;
+    
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.container ul{
+    width: 100%;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: lightpink;
+    padding-left: 150px;
+    
+}
+
+.first{
+    height: 300px;
+    width:200px;
+    position: absolute;
+    margin: auto;
+    
+}
+
+.second{
+        height: 300px;
+    width:600px;
+    position: relative;
+    left: 150px;
+     margin: auto;
+}
+#gallery{
+    border-bottom: 2px solid black;
+}
+.third{
+    height: auto;
+    width: 150px;
+    position: absolute;
+}
+
+.fourth{
+    height: auto;
+    width: 200px;
+    border-right: 2px solid black;
+    position: relative;
+    left:350px;
+    
+}
+
+.fifth{
+     height: auto;
+    width: 200px;
+    position: relative;
+    left:650px;
+   
+    
+}
+
+

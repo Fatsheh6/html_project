@@ -1,0 +1,53 @@
+ .fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;        
+        background: pink;
+        padding: 10px 0;
+        color: #fff;
+    }
+
+.fixed-header{
+        top: 0;
+    }
+    .fixed-footer{
+        bottom: 0;
+    } 
+
+ .container{
+        width: 80%;
+        margin: 0 auto; 
+    }
+.container p{
+        line-height: 200px; 
+    }
+
+
+.vertical-menu {
+  width: 200px; /* Set a width if you like */
+    margin: 50px;
+     position: relative;
+    
+}
+
+.vertical-menu a {
+  background-color: pink; /* Grey background color */
+  color: white; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: fuchsia; 
+}
+
+.vertical-menu a.active {
+  background-color: deeppink; 
+
+}
+
+ul{
+    position: relative;
+   
+    
+}
